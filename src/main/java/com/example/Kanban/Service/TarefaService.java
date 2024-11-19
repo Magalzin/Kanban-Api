@@ -77,7 +77,7 @@ public class TarefaService {
 
     public Tarefa putTarefa(Integer id, Tarefa tarefaUpdated) {
         Tarefa tarefa = this.searchById(id);
-        if (tarefa != null && tarefaUpdated.getId() == tarefa.getId()) {
+        if (tarefa != null) {
             LocalDate now = LocalDate.now();
 
             // Verifica se algum atributo da nova tabela é nulo se for nulo os atributos antigos são mantidos
