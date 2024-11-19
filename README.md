@@ -71,7 +71,7 @@ Estes endpoints requerem autenticação com um token JWT. Para incluir o token, 
          "title": "Comprar suprimentos",
          "description": "Comprar suprimentos para o escritório",
          "dueDate": "2024-10-30",
-         "priority": "ALTA"
+         "priority": "ALTA | MEDIA | BAIXA"
        }
        ```
    - **Resposta**: Tarefa criada com sucesso.
